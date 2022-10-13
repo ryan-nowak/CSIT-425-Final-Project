@@ -1,0 +1,13 @@
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\bin\Debug\Final Project (for real).exe.config
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\bin\Debug\Final Project (for real).exe
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\bin\Debug\Final Project (for real).pdb
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final Project (for real).csproj.AssemblyReference.cache
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final Project (for real).csproj.SuggestedBindingRedirects.cache
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final_Project__for_real_.Properties.Resources.resources
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final Project (for real).csproj.GenerateResource.cache
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final Project (for real).csproj.CoreCompileInputs.cache
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final Project (for real).exe
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final Project (for real).pdb
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final_Project__for_real_.login.resources
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final_Project__for_real_.main.resources
+C:\Users\nowa0598\source\repos\Final Project (for real)\Final Project (for real)\obj\Debug\Final_Project__for_real_.payment.resources

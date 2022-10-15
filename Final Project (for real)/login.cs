@@ -44,12 +44,14 @@ namespace Final_Project__for_real_
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             main mainForm = new main();
             mainForm.Show();
         }
 
         private void btn_newacc_Click(object sender, EventArgs e)
         {
+            this.Hide();
             newacc newAccForm = new newacc();
             newAccForm.Show();
         }

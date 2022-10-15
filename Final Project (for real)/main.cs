@@ -26,5 +26,15 @@ namespace Final_Project__for_real_
         {
 
         }
+
+        private void btn_information_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_name = new System.Windows.Forms.Label();
             this.btn_payment = new System.Windows.Forms.Button();
             this.btn_information = new System.Windows.Forms.Button();
             this.btn_logout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_name
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(320, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome, full name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lbl_name.AutoSize = true;
+            this.lbl_name.Location = new System.Drawing.Point(320, 54);
+            this.lbl_name.Name = "lbl_name";
+            this.lbl_name.Size = new System.Drawing.Size(100, 13);
+            this.lbl_name.TabIndex = 0;
+            this.lbl_name.Text = "Welcome, full name";
+            this.lbl_name.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_payment
             // 
@@ -50,7 +50,7 @@
             this.btn_payment.Name = "btn_payment";
             this.btn_payment.Size = new System.Drawing.Size(128, 67);
             this.btn_payment.TabIndex = 1;
-            this.btn_payment.Text = "Make payment";
+            this.btn_payment.Text = "Make Payment";
             this.btn_payment.UseVisualStyleBackColor = true;
             this.btn_payment.Click += new System.EventHandler(this.btn_payment_Click);
             // 
@@ -60,8 +60,9 @@
             this.btn_information.Name = "btn_information";
             this.btn_information.Size = new System.Drawing.Size(128, 67);
             this.btn_information.TabIndex = 2;
-            this.btn_information.Text = "View information";
+            this.btn_information.Text = "View/Change Information";
             this.btn_information.UseVisualStyleBackColor = true;
+            this.btn_information.Click += new System.EventHandler(this.btn_information_Click);
             // 
             // btn_logout
             // 
@@ -69,8 +70,9 @@
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.Size = new System.Drawing.Size(128, 67);
             this.btn_logout.TabIndex = 3;
-            this.btn_logout.Text = "Log out";
+            this.btn_logout.Text = "Log Out";
             this.btn_logout.UseVisualStyleBackColor = true;
+            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
             // 
             // main
             // 
@@ -80,7 +82,7 @@
             this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btn_information);
             this.Controls.Add(this.btn_payment);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_name);
             this.Name = "main";
             this.Text = "main";
             this.ResumeLayout(false);
@@ -90,7 +92,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Button btn_payment;
         private System.Windows.Forms.Button btn_information;
         private System.Windows.Forms.Button btn_logout;

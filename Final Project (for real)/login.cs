@@ -41,5 +41,17 @@ namespace Final_Project__for_real_
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            main mainForm = new main();
+            mainForm.Show();
+        }
+
+        private void btn_newacc_Click(object sender, EventArgs e)
+        {
+            newacc newAccForm = new newacc();
+            newAccForm.Show();
+        }
     }
 }

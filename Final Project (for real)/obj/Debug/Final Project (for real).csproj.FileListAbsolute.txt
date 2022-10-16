@@ -25,3 +25,17 @@ C:\Users\Ryan\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for 
 C:\Users\Ryan\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for real)\obj\Debug\Final Project (for real).csproj.CoreCompileInputs.cache
 C:\Users\Ryan\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for real)\obj\Debug\Final Project (for real).exe
 C:\Users\Ryan\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for real)\obj\Debug\Final Project (for real).pdb
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\bin\Debug\Final Project (for real).exe.config
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\bin\Debug\Final Project (for real).exe
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\bin\Debug\Final Project (for real).pdb
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final Project (for real).csprojAssemblyReference.cache
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final_Project__for_real_.login.resources
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final_Project__for_real_.main.resources
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final_Project__for_real_.newacc.resources
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final_Project__for_real_.payment.resources
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final_Project__for_real_.Properties.Resources.resources
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final Project (for real).csproj.GenerateResource.cache
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final Project (for real).csproj.CoreCompileInputs.cache
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final Project (for real).exe
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final Project (for real).pdb
+D:\FREDONIA CLASS DOCS\FALL 2022\SOFTWARE ENGINEERING\Group Project\CSIT-425-Final-Project-master\Final Project (for real)\obj\Debug\Final_Project__for_real_.info.resources

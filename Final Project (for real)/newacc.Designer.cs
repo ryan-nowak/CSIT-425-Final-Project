@@ -49,6 +49,7 @@
             this.lbl_choice = new System.Windows.Forms.Label();
             this.checkbox_monthly = new System.Windows.Forms.CheckBox();
             this.checkbox_yearly = new System.Windows.Forms.CheckBox();
+            this.btn_Backtomain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_welcome
@@ -233,11 +234,22 @@
             this.checkbox_yearly.Text = "Yearly ($500/year)";
             this.checkbox_yearly.UseVisualStyleBackColor = true;
             // 
+            // btn_Backtomain
+            // 
+            this.btn_Backtomain.Location = new System.Drawing.Point(485, 390);
+            this.btn_Backtomain.Name = "btn_Backtomain";
+            this.btn_Backtomain.Size = new System.Drawing.Size(147, 48);
+            this.btn_Backtomain.TabIndex = 5;
+            this.btn_Backtomain.Text = "Go Back";
+            this.btn_Backtomain.UseVisualStyleBackColor = true;
+            this.btn_Backtomain.Click += new System.EventHandler(this.button1_Click);
+            // 
             // newacc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Backtomain);
             this.Controls.Add(this.checkbox_yearly);
             this.Controls.Add(this.checkbox_monthly);
             this.Controls.Add(this.lbl_choice);
@@ -289,5 +301,6 @@
         private System.Windows.Forms.Label lbl_choice;
         private System.Windows.Forms.CheckBox checkbox_monthly;
         private System.Windows.Forms.CheckBox checkbox_yearly;
+        private System.Windows.Forms.Button btn_Backtomain;
     }
 }

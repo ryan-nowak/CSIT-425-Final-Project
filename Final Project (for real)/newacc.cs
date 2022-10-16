@@ -41,5 +41,12 @@ namespace Final_Project__for_real_
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            login loginForm = new login();
+            loginForm.Show(); 
+        }
     }
 }

@@ -36,5 +36,12 @@ namespace Final_Project__for_real_
         {
 
         }
+
+        private void btn_Backtomain_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            main mainForm = new main();
+            mainForm.Show();
+        }
     }
 }

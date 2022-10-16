@@ -40,6 +40,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.lbl_zip = new System.Windows.Forms.Label();
             this.btn_submit = new System.Windows.Forms.Button();
+            this.btn_Backtomain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_ccnumber
@@ -143,11 +144,22 @@
             this.btn_submit.UseVisualStyleBackColor = true;
             this.btn_submit.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn_Backtomain
+            // 
+            this.btn_Backtomain.Location = new System.Drawing.Point(641, 390);
+            this.btn_Backtomain.Name = "btn_Backtomain";
+            this.btn_Backtomain.Size = new System.Drawing.Size(147, 48);
+            this.btn_Backtomain.TabIndex = 12;
+            this.btn_Backtomain.Text = "Go Back";
+            this.btn_Backtomain.UseVisualStyleBackColor = true;
+            this.btn_Backtomain.Click += new System.EventHandler(this.btn_Backtomain_Click);
+            // 
             // payment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Backtomain);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.lbl_zip);
@@ -181,5 +193,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label lbl_zip;
         private System.Windows.Forms.Button btn_submit;
+        private System.Windows.Forms.Button btn_Backtomain;
     }
 }

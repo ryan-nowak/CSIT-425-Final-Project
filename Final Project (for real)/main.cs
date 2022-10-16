@@ -24,12 +24,16 @@ namespace Final_Project__for_real_
 
         private void btn_payment_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            payment paymentForm = new payment();
+            paymentForm.Show(); 
         }
 
         private void btn_information_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            info infoForm = new info();
+            infoForm.Show();
         }
 
         private void btn_logout_Click(object sender, EventArgs e)

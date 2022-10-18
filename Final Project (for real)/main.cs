@@ -17,11 +17,6 @@ namespace Final_Project__for_real_
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_payment_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -39,6 +34,16 @@ namespace Final_Project__for_real_
         private void btn_logout_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_fullname_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

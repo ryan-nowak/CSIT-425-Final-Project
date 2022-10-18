@@ -28,51 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lbl_email = new System.Windows.Forms.Label();
-            this.lbl_password = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_newacc = new System.Windows.Forms.Button();
+            this.lbl_fname = new System.Windows.Forms.Label();
+            this.txt_fname = new System.Windows.Forms.TextBox();
+            this.lbl_lname = new System.Windows.Forms.Label();
+            this.txt_lname = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(383, 205);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(206, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // lbl_email
-            // 
-            this.lbl_email.AutoSize = true;
-            this.lbl_email.Location = new System.Drawing.Point(380, 189);
-            this.lbl_email.Name = "lbl_email";
-            this.lbl_email.Size = new System.Drawing.Size(35, 13);
-            this.lbl_email.TabIndex = 1;
-            this.lbl_email.Text = "Email:";
-            this.lbl_email.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // lbl_password
-            // 
-            this.lbl_password.AutoEllipsis = true;
-            this.lbl_password.AutoSize = true;
-            this.lbl_password.Location = new System.Drawing.Point(380, 251);
-            this.lbl_password.Name = "lbl_password";
-            this.lbl_password.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbl_password.Size = new System.Drawing.Size(56, 13);
-            this.lbl_password.TabIndex = 3;
-            this.lbl_password.Text = "Password:";
-            this.lbl_password.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(383, 267);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(206, 20);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // btn_login
             // 
@@ -94,17 +56,53 @@
             this.btn_newacc.UseVisualStyleBackColor = true;
             this.btn_newacc.Click += new System.EventHandler(this.btn_newacc_Click);
             // 
+            // lbl_fname
+            // 
+            this.lbl_fname.AutoSize = true;
+            this.lbl_fname.Location = new System.Drawing.Point(380, 163);
+            this.lbl_fname.Name = "lbl_fname";
+            this.lbl_fname.Size = new System.Drawing.Size(60, 13);
+            this.lbl_fname.TabIndex = 7;
+            this.lbl_fname.Text = "First Name:";
+            this.lbl_fname.Click += new System.EventHandler(this.lbl_fname_Click);
+            // 
+            // txt_fname
+            // 
+            this.txt_fname.Location = new System.Drawing.Point(383, 179);
+            this.txt_fname.Name = "txt_fname";
+            this.txt_fname.Size = new System.Drawing.Size(206, 20);
+            this.txt_fname.TabIndex = 6;
+            this.txt_fname.TextChanged += new System.EventHandler(this.txt_fname_TextChanged);
+            // 
+            // lbl_lname
+            // 
+            this.lbl_lname.AutoSize = true;
+            this.lbl_lname.Location = new System.Drawing.Point(380, 235);
+            this.lbl_lname.Name = "lbl_lname";
+            this.lbl_lname.Size = new System.Drawing.Size(61, 13);
+            this.lbl_lname.TabIndex = 9;
+            this.lbl_lname.Text = "Last Name:";
+            this.lbl_lname.Click += new System.EventHandler(this.lbl_lname_Click);
+            // 
+            // txt_lname
+            // 
+            this.txt_lname.Location = new System.Drawing.Point(383, 251);
+            this.txt_lname.Name = "txt_lname";
+            this.txt_lname.Size = new System.Drawing.Size(206, 20);
+            this.txt_lname.TabIndex = 8;
+            this.txt_lname.TextChanged += new System.EventHandler(this.txt_lname_TextChanged);
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1037, 633);
+            this.Controls.Add(this.lbl_lname);
+            this.Controls.Add(this.txt_lname);
+            this.Controls.Add(this.lbl_fname);
+            this.Controls.Add(this.txt_fname);
             this.Controls.Add(this.btn_newacc);
             this.Controls.Add(this.btn_login);
-            this.Controls.Add(this.lbl_password);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.lbl_email);
-            this.Controls.Add(this.textBox1);
             this.Name = "login";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -114,13 +112,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lbl_email;
-        private System.Windows.Forms.Label lbl_password;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Button btn_newacc;
+        private System.Windows.Forms.Label lbl_fname;
+        private System.Windows.Forms.TextBox txt_fname;
+        private System.Windows.Forms.Label lbl_lname;
+        private System.Windows.Forms.TextBox txt_lname;
     }
 }
 

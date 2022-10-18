@@ -28,21 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_name = new System.Windows.Forms.Label();
             this.btn_payment = new System.Windows.Forms.Button();
             this.btn_information = new System.Windows.Forms.Button();
             this.btn_logout = new System.Windows.Forms.Button();
+            this.lbl_fullname = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lbl_name
-            // 
-            this.lbl_name.AutoSize = true;
-            this.lbl_name.Location = new System.Drawing.Point(320, 54);
-            this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(100, 13);
-            this.lbl_name.TabIndex = 0;
-            this.lbl_name.Text = "Welcome, full name";
-            this.lbl_name.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_payment
             // 
@@ -74,27 +64,36 @@
             this.btn_logout.UseVisualStyleBackColor = true;
             this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
             // 
+            // lbl_fullname
+            // 
+            this.lbl_fullname.AutoSize = true;
+            this.lbl_fullname.Location = new System.Drawing.Point(317, 72);
+            this.lbl_fullname.Name = "lbl_fullname";
+            this.lbl_fullname.Size = new System.Drawing.Size(108, 13);
+            this.lbl_fullname.TabIndex = 4;
+            this.lbl_fullname.Text = "Welcome, Full Name!";
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl_fullname);
             this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btn_information);
             this.Controls.Add(this.btn_payment);
-            this.Controls.Add(this.lbl_name);
             this.Name = "main";
             this.Text = "main";
+            this.Load += new System.EventHandler(this.main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Button btn_payment;
         private System.Windows.Forms.Button btn_information;
         private System.Windows.Forms.Button btn_logout;
+        private System.Windows.Forms.Label lbl_fullname;
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using Microsoft.Identity.Client;
 
 namespace Final_Project__for_real_
 {
@@ -19,6 +20,9 @@ namespace Final_Project__for_real_
         }
 
         SqlConnection conn = new SqlConnection(@"Data Source=csit425finalproject.database.windows.net;Initial Catalog=CustomerInfo;Persist Security Info=True;User ID=customersAdmin;Password=csit425final$");
+
+        public static string firstName = "";
+        public static string lastName = "";
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -32,6 +36,11 @@ namespace Final_Project__for_real_
 
             fname = txt_fname.Text;
             lname = txt_lname.Text;
+
+            //for other form
+            firstName = txt_fname.Text;
+            lastName = txt_lname.Text;
+
 
             try
             {

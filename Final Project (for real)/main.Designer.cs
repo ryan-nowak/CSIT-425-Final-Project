@@ -67,12 +67,11 @@
             // lbl_fullname
             // 
             this.lbl_fullname.AutoSize = true;
-            this.lbl_fullname.Location = new System.Drawing.Point(317, 69);
+            this.lbl_fullname.Location = new System.Drawing.Point(317, 72);
             this.lbl_fullname.Name = "lbl_fullname";
             this.lbl_fullname.Size = new System.Drawing.Size(108, 13);
             this.lbl_fullname.TabIndex = 4;
             this.lbl_fullname.Text = "Welcome, Full Name!";
-            this.lbl_fullname.Click += new System.EventHandler(this.lbl_fullname_Click);
             // 
             // main
             // 
@@ -85,6 +84,7 @@
             this.Controls.Add(this.btn_payment);
             this.Name = "main";
             this.Text = "main";
+            this.Load += new System.EventHandler(this.main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

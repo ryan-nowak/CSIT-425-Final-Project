@@ -36,14 +36,9 @@ namespace Final_Project__for_real_
             Close();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void main_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void lbl_fullname_Click(object sender, EventArgs e)
-        {
-
+            lbl_fullname.Text = "Welcome, " + login.firstName + " " + login.lastName + "!";
         }
     }
 }

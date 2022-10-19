@@ -191,3 +191,4 @@ C:\Users\nowa0598\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (
 C:\Users\nowa0598\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for real)\obj\Debug\Final Project (for real).csproj.CopyComplete
 C:\Users\nowa0598\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for real)\obj\Debug\Final Project (for real).exe
 C:\Users\nowa0598\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for real)\obj\Debug\Final Project (for real).pdb
+C:\Users\Ryan\Source\Repos\ryan-nowak\CSIT-425-Final-Project\Final Project (for real)\obj\Debug\Final_Project__for_real_.admin.resources

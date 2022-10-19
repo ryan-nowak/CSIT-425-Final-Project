@@ -41,44 +41,53 @@ namespace Final_Project__for_real_
             firstName = txt_fname.Text;
             lastName = txt_lname.Text;
 
-
-            try
+            if (fname == "admin")
             {
-                conn.Open();
-                String querry = "SELECT * FROM CustomersInfo WHERE FirstName = '" + txt_fname.Text + "' AND LastName = '" + txt_lname.Text + "'";
-                SqlDataAdapter sda = new SqlDataAdapter(querry, conn);
-
-                DataTable dtable = new DataTable();
-                sda.Fill(dtable);
-
-                if (dtable.Rows.Count > 0)
-                {
-                    fname = txt_fname.Text;
-                    lname = txt_lname.Text;
-
-                    this.Hide();
-                    main mainForm = new main();
-                    mainForm.Show();
-                }
-
-                else
-                {
-                    MessageBox.Show("Invalid login details.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    txt_fname.Clear();
-                    txt_lname.Clear();
-
-                    txt_fname.Focus();
-                }
+                this.Hide();
+                admin adminForm = new admin();
+                adminForm.Show();
             }
 
-            catch
+            else
             {
-                MessageBox.Show("Error.");
-            }
+                try
+                {
+                    conn.Open();
+                    String querry = "SELECT * FROM CustomersInfo WHERE FirstName = '" + txt_fname.Text + "' AND LastName = '" + txt_lname.Text + "'";
+                    SqlDataAdapter sda = new SqlDataAdapter(querry, conn);
 
-            finally
-            {
-                conn.Close();
+                    DataTable dtable = new DataTable();
+                    sda.Fill(dtable);
+
+                    if (dtable.Rows.Count > 0)
+                    {
+                        fname = txt_fname.Text;
+                        lname = txt_lname.Text;
+
+                        this.Hide();
+                        main mainForm = new main();
+                        mainForm.Show();
+                    }
+
+                    else
+                    {
+                        MessageBox.Show("Invalid login details.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        txt_fname.Clear();
+                        txt_lname.Clear();
+
+                        txt_fname.Focus();
+                    }
+                }
+
+                catch
+                {
+                    MessageBox.Show("Error.");
+                }
+
+                finally
+                {
+                    conn.Close();
+                }
             }
             
         }

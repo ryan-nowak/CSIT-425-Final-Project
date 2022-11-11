@@ -104,6 +104,7 @@
             this.Controls.Add(this.btn_yearly);
             this.Controls.Add(this.btn_monthly);
             this.Controls.Add(this.lbl_paymentinfo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "payment_nonactive";
             this.Text = "AER Fitness";
             this.ResumeLayout(false);

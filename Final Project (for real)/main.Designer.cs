@@ -87,6 +87,7 @@
             this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btn_information);
             this.Controls.Add(this.btn_payment);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "main";
             this.Text = "AER Fitness";
             this.Load += new System.EventHandler(this.main_Load);

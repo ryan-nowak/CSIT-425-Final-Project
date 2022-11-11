@@ -90,6 +90,7 @@
             this.Controls.Add(this.btn_newacc);
             this.Controls.Add(this.btn_login);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

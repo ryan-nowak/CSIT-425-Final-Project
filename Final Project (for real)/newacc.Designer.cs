@@ -408,6 +408,7 @@
             this.Controls.Add(this.lbl_fname);
             this.Controls.Add(this.btn_create);
             this.Controls.Add(this.lbl_welcome);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "newacc";
             this.Text = "AER Fitness";
             this.ResumeLayout(false);

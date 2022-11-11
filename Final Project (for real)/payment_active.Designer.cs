@@ -81,6 +81,7 @@
             this.Controls.Add(this.btn_Backtomain);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "payment_active";
             this.Text = "AER Fitness";
             this.ResumeLayout(false);

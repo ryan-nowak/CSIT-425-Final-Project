@@ -89,6 +89,7 @@
             this.Controls.Add(this.btn_payment);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AER Fitness";
             this.Load += new System.EventHandler(this.main_Load);
             this.ResumeLayout(false);

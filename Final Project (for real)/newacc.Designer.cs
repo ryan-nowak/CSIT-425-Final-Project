@@ -410,6 +410,7 @@
             this.Controls.Add(this.lbl_welcome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "newacc";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AER Fitness";
             this.ResumeLayout(false);
             this.PerformLayout();

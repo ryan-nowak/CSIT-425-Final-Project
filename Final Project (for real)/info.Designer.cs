@@ -137,6 +137,7 @@ namespace Final_Project__for_real_
             this.Controls.Add(this.lbl_Address);
             this.Controls.Add(this.lbl_Name);
             this.Controls.Add(this.lbl_welcome);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "info";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AER Fitness";

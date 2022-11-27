@@ -22,7 +22,7 @@ namespace Final_Project__for_real_
 
         private void admin_Load(object sender, EventArgs e)
         {
-            this.customersInfoTableAdapter.Fill(this.customerInfoDataSet.CustomersInfo);
+            
         }
 
         private void btn_monthlycharge_Click(object sender, EventArgs e)

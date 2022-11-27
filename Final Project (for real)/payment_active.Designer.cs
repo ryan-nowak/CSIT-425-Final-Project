@@ -82,6 +82,7 @@
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.label2);
             this.Name = "payment_active";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AER Fitness";
             this.ResumeLayout(false);
             this.PerformLayout();

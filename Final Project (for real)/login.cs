@@ -44,7 +44,7 @@ namespace Final_Project__for_real_
             email = txt_fname.Text;
             password = txt_lname.Text;
 
-            if (email == "admin")
+            if (email == "admin@aerfitness.com" && password == "aeradmin")
             {
                 this.Hide();
                 admin adminForm = new admin();

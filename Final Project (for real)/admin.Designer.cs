@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.customerInfoDataSet = new Final_Project__for_real_.CustomerInfoDataSet();
-            this.customersInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.customersInfoTableAdapter = new Final_Project__for_real_.CustomerInfoDataSetTableAdapters.CustomersInfoTableAdapter();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_update = new System.Windows.Forms.Button();
             this.btn_monthlycharge = new System.Windows.Forms.Button();
@@ -57,24 +54,13 @@
             this.consecutiveMonthsLateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.passwordDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.customerInfoDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customersInfoBindingSource)).BeginInit();
+            this.customersInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.customerInfoDataSet = new Final_Project__for_real_.CustomerInfoDataSet();
+            this.customersInfoTableAdapter = new Final_Project__for_real_.CustomerInfoDataSetTableAdapters.CustomersInfoTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customersInfoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customerInfoDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // customerInfoDataSet
-            // 
-            this.customerInfoDataSet.DataSetName = "CustomerInfoDataSet";
-            this.customerInfoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // customersInfoBindingSource
-            // 
-            this.customersInfoBindingSource.DataMember = "CustomersInfo";
-            this.customersInfoBindingSource.DataSource = this.customerInfoDataSet;
-            // 
-            // customersInfoTableAdapter
-            // 
-            this.customersInfoTableAdapter.ClearBeforeFill = true;
             // 
             // dataGridView1
             // 
@@ -295,6 +281,20 @@
             this.passwordDataGridViewTextBoxColumn.Name = "passwordDataGridViewTextBoxColumn";
             this.passwordDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // customersInfoBindingSource
+            // 
+            this.customersInfoBindingSource.DataMember = "CustomersInfo";
+            this.customersInfoBindingSource.DataSource = this.customerInfoDataSet;
+            // 
+            // customerInfoDataSet
+            // 
+            this.customerInfoDataSet.DataSetName = "CustomerInfoDataSet";
+            this.customerInfoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // customersInfoTableAdapter
+            // 
+            this.customersInfoTableAdapter.ClearBeforeFill = true;
+            // 
             // admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -308,11 +308,12 @@
             this.Controls.Add(this.btn_update);
             this.Controls.Add(this.dataGridView1);
             this.Name = "admin";
-            this.Text = "admin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "AER Fitness Admin";
             this.Load += new System.EventHandler(this.admin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.customerInfoDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customersInfoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customersInfoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customerInfoDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }

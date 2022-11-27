@@ -409,6 +409,7 @@
             this.Controls.Add(this.btn_create);
             this.Controls.Add(this.lbl_welcome);
             this.Name = "newacc";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AER Fitness";
             this.ResumeLayout(false);
             this.PerformLayout();

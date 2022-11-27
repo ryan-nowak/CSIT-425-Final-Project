@@ -138,6 +138,7 @@ namespace Final_Project__for_real_
             this.Controls.Add(this.lbl_Name);
             this.Controls.Add(this.lbl_welcome);
             this.Name = "info";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AER Fitness";
             this.Load += new System.EventHandler(this.info_Load);
             this.ResumeLayout(false);
